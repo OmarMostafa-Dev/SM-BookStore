@@ -1,0 +1,41 @@
+.main-form {
+    color: #4371DD;
+    text-align: center;
+}
+
+
+.form-name, 
+.form-email,
+.form-message{
+    margin: 5vh auto;
+    display: block;
+}
+
+.form-name, 
+.form-email, 
+.form-message {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 18px;
+    border: solid #4371DD 2px;
+}
+
+.form-submit {
+    cursor: pointer;
+    border: solid #4371DD 3px;
+    color: white;
+    padding: 5px 18px;
+    background-color: #4371DD;
+    border-radius: 20px;
+    transition: background-color .8s, color 3ms ease ;
+}
+
+.form-submit:hover {
+    background-color: white;
+    color: #4371DD;
+}
+
+.form-message {
+    resize: none;
+}
